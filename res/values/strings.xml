@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zimek</string>
+    <string name="application_prompt"></string>
+    <string name="app_configure"></string>
+    <string name="zcomm_service_started">ZComm service started.</string>
+    
+    <string-array name="application_type">
+        <item>SELECT APPLICATION</item>  
+        <item>ROOM</item>
+        <item>VEHICLE</item>
+    </string-array>
+    
+        <string-array name="application_configure">
+        <item>CALIBRATE APPLICATION</item>    
+        <item>MANUAL</item>
+        <item>AUTOMATIC</item>
+    </string-array>
+    
+       <string name="btnLanguage"></string>
+       <string name="imViewManual"></string>
+       <string name="imViewOM"></string>
+       <string name="imBtnNext"></string>
+       <string name="imBtnAgree"></string>
+       <string name="imBtnLanguage"></string>
+       <string name="imBtnWarning"></string>
+       <string name="imBtnReturn"></string>
+       
+       <string name="imViewUserGuide"></string>
+       <string name="imBtnUserGuideOperators"></string>
+       <string name="imBtnUserGuideManagers"></string>
+       <string name="imBtnUserGuideMaint"></string>
+       <string name="imBtnUserGuideTroubleshooting"></string>
+       
+       <string name="imBtnControlCenter"></string>
+       <string name="imBtnRepeatApp"></string>
+       <string name="imBtnNewApp"></string>
+       <string name="imBtnViewReports"></string>
+       <string name="imBtnMainandRepair"></string>
+       <string name="imBtnSprayApp"></string>
+       <string name="imBtnMistRemaining"></string>
+       <string name="liquidtank"></string>
+       <string name="liquidtankhead"></string>
+       <string name="imViewAppProgressHead"></string>
+       <string name="imViewLocationId"></string>
+       <string name="imVieMist"></string>
+       <string name="imViewDwell"></string>
+       <string name="imViewZvac"></string>
+       <string name="imViewZvacText"></string>
+       <string name="imViewTotalText"></string>
+       <string name="imViewMistIcon"></string>
+       <string name="imViewZvacIcon"></string>
+       <string name="imViewDwellIcon"></string>
+       <string name="imBtnStopApp"></string>
+       <string name="imBtnPauseApp"></string>
+       <string name="imViewTotalTime"></string>
+       <string name="imViewDwellText"></string>
+       <string name="imViewMistText"></string>
+       <string name="EdTChange"></string>
+       
+       <string name="imViewEnterDimenHead"></string>
+       <string name="imViewDimensions"></string>
+       <string name="imViewAppTimePeriods"></string>
+       <string name="imViewCalAppTime"></string>
+       <string name="imBtnEditAppTime"></string>
+       <string name="imViewAppBegHead"></string>
+       <string name="imBtnStop"></string>
+       <string name="imBtnPause"></string>
+       <string name="imViewSec"></string>
+       <string name="imViewEvac"></string>
+       
+       <string name="imViewStart"></string>
+       <string name="imBtnStart"></string>
+       <string name="imViewEnterLoc"></string>
+       <string name="imViewTextBg"></string>
+       
+       <string name="imViewTimeRemaing"></string>
+       <string name="imViewLitresGallons"></string>
+       <string name="imViewMistTimeRemaining"></string>
+       
+       <string name="imViewManualApp"></string>
+       
+       <string name="imViewNewApp"></string>
+       <string name="imBtnManualCali"></string>
+       <string name="imBtnAutoCali"></string>
+       
+       <string name="imViewConfirmAppHead"></string>
+       <string name="imViewStartCountDown"></string>
+       <string name="imViewTimePeriods"></string>
+       
+       <string name="imBtnEditApp"></string>
+       <string name="imViewConfirmLocHead"></string>
+       <string name="imViewConfirmLoc"></string>
+       
+       
+       <string name="imView_5"></string>
+       <string name="imViewRepeatHead"></string>
+       <string name="imViewRepeatTitle"></string>
+       
+       
+       <string name="imView_2"></string>
+       <string name="imView_3"></string>
+       <string name="imView_4"></string>
+       
+       <string name="imBtn_4"></string>
+       <string name="imView_1"></string>
+       <string name="imBtn_1"></string>
+       
+       <string name="imBtn_2"></string>
+       <string name="imBtn_3"></string>
+       <string name="imBtn_5"></string>
+       
+       <string name="imViewReportHead"></string>
+       <string name="imViewAppResultLoc"></string>
+       <string name="imViewStartDateTotal"></string>
+       
+       <string name="imViewMistDwellZvac"></string>
+       
+       <string name="imViewReportsHead"></string>
+       <string name="imViewReportTitle"></string>
+       <string name="imView_6"></string>
+       <string name="imView_7"></string>
+       <string name="imView_8"></string>
+       <string name="English"></string>
+       <string name="imBtnActivate"></string>
+       <string name="imBtnDownload"></string>
+       <string name="imBtnMGTControlCenter"></string>
+</resources>

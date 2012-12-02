@@ -1,0 +1,36 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.46;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@@+id/vid"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<SurfaceView android:id="@@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+	</SurfaceView>
+</RelativeLayout>@

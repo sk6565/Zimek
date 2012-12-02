@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="569dp"
+        android:background="@null"
+        android:src="@drawable/return_eng" 
+        android:contentDescription="@string/imBtnReturn"/>
+
+    <ImageButton
+        android:id="@+id/imBtnControlCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="528dp"
+        android:layout_y="570dp"
+        android:background="@null"
+        android:src="@drawable/control_center_eng" 
+        android:contentDescription="@string/imBtnControlCenter"/>
+
+    <ImageButton
+        android:id="@+id/imBtnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1135dp"
+        android:layout_y="570dp"
+        android:background="@null"
+        android:src="@drawable/next_eng" 
+        android:contentDescription="@string/imBtnNext"/>
+
+    <ImageButton
+        android:id="@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="999dp"
+        android:layout_y="19dp"
+        android:background="@null"
+        android:src="@drawable/warning_eng" 
+        android:contentDescription="@string/imBtnWarning"/>
+
+    <ImageView
+        android:id="@+id/imViewEnterDimenHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="49dp"
+        android:src="@drawable/enter_dimensions_eng" 
+         android:contentDescription="@string/imViewEnterDimenHead"/>
+
+    <ImageView
+        android:id="@+id/imViewDimensions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="139dp"
+        android:src="@drawable/dimensions_eng"
+        android:contentDescription="@string/imViewDimensions" />
+
+    <EditText
+        android:id="@+id/EdTLength"
+        android:layout_width="188dp"
+        android:layout_height="71dp"
+        android:layout_x="39dp"
+        android:layout_y="154dp"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:digits="1234567890"
+        android:ems="10"
+        android:freezesText="false"
+        android:gravity="center"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="40sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/EdTWidth"
+        android:layout_width="185dp"
+        android:layout_height="71dp"
+        android:layout_x="393dp"
+        android:layout_y="155dp"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:digits="1234567890"
+        android:ems="10"
+        android:freezesText="false"
+        android:gravity="center"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/EdTHeight"
+        android:layout_width="181dp"
+        android:layout_height="75dp"
+        android:layout_x="761dp"
+        android:layout_y="151dp"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:digits="1234567890"
+        android:ems="10"
+        android:freezesText="false"
+        android:gravity="center"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/EdTtotalFeet"
+        android:layout_width="187dp"
+        android:layout_height="54dp"
+        android:layout_x="1070dp"
+        android:layout_y="164dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imViewAppTimePeriods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="400dp"
+        android:src="@drawable/application_time_periods_eng"
+        android:contentDescription="@string/imViewAppTimePeriods" />
+
+    <ImageView
+        android:id="@+id/imViewCalAppTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="326dp"
+        android:src="@drawable/calibrated_application_time_eng"
+        android:contentDescription="@string/imViewCalAppTime" />
+
+    <EditText
+        android:id="@+id/EdTMistTime"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="449dp"
+        android:background="@null"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:text="00:01"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/EdTDwellTime"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_x="270dp"
+        android:layout_y="450dp"
+        android:background="@null"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:text="00:02"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/EdTZvacTime"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_x="494dp"
+        android:layout_y="451dp"
+        android:background="@null"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:text="00:01"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="40sp" />
+
+    <ImageButton
+        android:id="@+id/imBtnEditAppTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="704dp"
+        android:layout_y="424dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnEditAppTime"
+        android:src="@drawable/edit_application_time_eng" />
+
+</AbsoluteLayout>

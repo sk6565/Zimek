@@ -1,0 +1,126 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.41;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="34dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnWarning"
+        android:src="@@drawable/warning_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="569dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnReturn"
+        android:src="@@drawable/return_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnControlCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="528dp"
+        android:layout_y="570dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnControlCenter"
+        android:src="@@drawable/control_center_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1135dp"
+        android:layout_y="570dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnStart"
+        android:src="@@drawable/start_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewEnterLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="296dp"
+        android:layout_y="34dp"
+        android:contentDescription="@@string/imViewEnterLoc"
+        android:src="@@drawable/enter_location_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewTextBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="374dp"
+        android:layout_y="189dp"
+        android:contentDescription="@@string/imViewTextBg"
+        android:src="@@drawable/confirm_location_blank" />
+
+    <EditText
+        android:id="@@+id/locationId"
+        android:imeOptions="actionGo"
+        android:layout_width="524dp"
+        android:layout_height="68dp"
+        android:layout_x="384dp"
+        android:layout_y="215dp"
+        android:background="@@null"
+        android:capitalize="characters"
+        android:clickable="false"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@@color/white"
+        android:textSize="40sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@@+id/imViewStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="411dp"
+        android:contentDescription="@@string/imViewStart"
+        android:src="@@drawable/press_start_for_countdown_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnPressToChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="255dp"
+        android:layout_y="320dp"
+        android:background="@@null"
+        android:src="@@drawable/press_to_change_loc_eng" />
+
+</AbsoluteLayout>@

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="569dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnReturn"
+        android:src="@drawable/return_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1135dp"
+        android:layout_y="570dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnNext"
+        android:src="@drawable/next_eng" />
+
+    <ImageView
+        android:id="@+id/imViewPassCodeHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="285dp"
+        android:layout_y="25dp"
+        android:src="@drawable/passcode_required_eng" />
+
+    <ImageView
+        android:id="@+id/imViewPassCodeIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="529dp"
+        android:layout_y="96dp"
+        android:src="@drawable/passcode_icon" />
+
+    <ImageView
+        android:id="@+id/imViewEdtBlank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="455dp"
+        android:layout_y="422dp"
+        android:src="@drawable/enter_passcode_eng" />
+
+    <EditText
+        android:id="@+id/EdTPassCode"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_x="466dp"
+        android:layout_y="431dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberPassword"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="55sp" >
+
+        <requestFocus />
+    </EditText>
+
+</AbsoluteLayout>

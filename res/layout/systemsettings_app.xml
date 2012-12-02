@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="30dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnWarning"
+        android:src="@drawable/warning_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="592dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnReturn"
+        android:src="@drawable/return_eng" />
+
+    <ImageView
+        android:id="@+id/imViewSystemSettingsHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="322dp"
+        android:layout_y="30dp"
+        android:src="@drawable/system_settings_head_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnSystemInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="120dp"
+        android:background="@null"
+        android:src="@drawable/system_info_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnPassCodes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="240dp"
+        android:background="@null"
+        android:src="@drawable/passcodes_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnTotalRunTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="360dp"
+        android:background="@null"
+        android:src="@drawable/total_run_time_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnBeeper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="480dp"
+        android:background="@null"
+        android:src="@drawable/beeper_disabled_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnApplicationModules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="739dp"
+        android:layout_y="120dp"
+        android:background="@null"
+        android:src="@drawable/application_modules_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnTimeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="739dp"
+        android:layout_y="240dp"
+        android:background="@null"
+        android:src="@drawable/date_and_time_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnLightingApplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="741dp"
+        android:layout_y="360dp"
+        android:background="@null"
+        android:src="@drawable/lighting_application_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnMetrics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="737dp"
+        android:layout_y="480dp"
+        android:background="@null"
+        android:src="@drawable/metrics_liters_and_meters_eng" />
+
+</AbsoluteLayout>

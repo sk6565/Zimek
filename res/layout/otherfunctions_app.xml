@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="17dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnWarning"
+        android:src="@drawable/warning_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="569dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnReturn"
+        android:src="@drawable/return_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnSprayApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="387dp"
+        android:layout_y="606dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnSprayApp"
+        android:src="@drawable/spray_application_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnPreHeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="387dp"
+        android:layout_y="479dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnMainandRepair"
+        android:src="@drawable/preheat_liquid_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnViewReports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="387dp"
+        android:layout_y="233dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnViewReports"
+        android:src="@drawable/view_reports_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnMistRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="387dp"
+        android:layout_y="111dp"
+        android:background="@null"
+        android:src="@drawable/micro_mist_time_remaining_eng" />
+    
+     <TextView
+        android:id="@+id/txtViewSpray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1023dp"
+        android:layout_y="47dp"
+        android:clickable="false"
+        android:text="TextView" android:visibility="invisible"/>
+
+     <ImageButton
+         android:id="@+id/imBtnMgt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="387dp"
+         android:layout_y="352dp"
+         android:background="@null"
+         android:src="@drawable/mgt_control_center_eng" />
+
+     <ImageView
+         android:id="@+id/imViewOtherFunctions"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="600dp"
+         android:layout_y="25dp"
+         android:src="@drawable/menu_eng" />
+
+</AbsoluteLayout>    

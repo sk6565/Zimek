@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="34dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnWarning"
+        android:src="@drawable/warning_eng" />
+    
+    <ImageButton
+        android:id="@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="571dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnReturn"
+        android:src="@drawable/return_eng" />
+
+    <ImageView
+        android:id="@+id/imViewApplicationModuleHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="324dp"
+        android:layout_y="41dp"
+        android:src="@drawable/application_modules_head_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnRoomsOnly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="334dp"
+        android:layout_y="127dp"
+        android:background="@null"
+        android:src="@drawable/rooms_only_eng_1" />
+
+    <ImageButton
+        android:id="@+id/imBtnVehiclesOnly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="334dp"
+        android:layout_y="277dp"
+        android:background="@null"
+        android:src="@drawable/vehicles_only_eng_1" />
+
+    <ImageButton
+        android:id="@+id/imBtnRoomandVehicles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="334dp"
+        android:layout_y="423dp"
+        android:background="@null"
+        android:src="@drawable/rooms_and_vehicles_eng_1" />
+    
+    
+</AbsoluteLayout>

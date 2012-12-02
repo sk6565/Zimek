@@ -1,0 +1,116 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.48;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="569dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnReturn"
+        android:src="@@drawable/return_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="14dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnWarning"
+        android:src="@@drawable/warning_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewDateTimeHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="477dp"
+        android:layout_y="27dp"
+        android:src="@@drawable/date_and_time_head_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnChangeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="400dp"
+        android:layout_y="162dp"
+        android:background="@@null"
+        android:src="@@drawable/change_date_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnChangeTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="400dp"
+        android:layout_y="389dp"
+        android:background="@@null"
+        android:src="@@drawable/change_time_eng" />
+
+    <TextView
+        android:id="@@+id/txtViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1002dp"
+        android:layout_y="448dp"
+        android:text="12:00 PM"
+        android:textColor="@@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@@+id/imViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1006dp"
+        android:layout_y="253dp"
+        android:src="@@drawable/mm_dd_yyyy_eng" />
+
+    <TextView
+        android:id="@@+id/txtViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="974dp"
+        android:layout_y="213dp"
+        android:text="07/31/2012"
+        android:textColor="@@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    
+    <ImageButton
+        android:id="@@+id/imBtnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1135dp"
+        android:layout_y="570dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnNext"
+        android:src="@@drawable/save_eng" />
+
+</AbsoluteLayout>@

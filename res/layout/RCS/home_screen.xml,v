@@ -1,0 +1,81 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.41;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:id="@@+id/HomeScreen">
+
+    <ImageButton
+        android:id="@@+id/imBtnLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1110dp"
+        android:layout_y="15dp"
+        android:src="@@drawable/language" 
+        android:background="@@null"
+        android:contentDescription="@@string/btnLanguage"/>
+
+    <ImageButton
+        android:id="@@+id/imBtnAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="404dp"
+        android:layout_y="573dp"
+        android:src="@@drawable/agree_eng" 
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnAgree"/>
+
+    <TextView
+        android:id="@@+id/txtViewLanguage"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1105dp"
+        android:layout_y="148dp"
+        android:gravity="center"
+        android:text="English"
+        android:textColor="@@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@@+id/imViewOM"
+        android:layout_width="1067dp"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="484dp"
+        android:contentDescription="@@string/imViewOM"
+        android:src="@@drawable/operator_shall_follow_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnReadManual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="436dp"
+        android:layout_y="70dp"
+        android:background="@@null"
+        android:src="@@drawable/read_manual_eng" />
+    
+    </AbsoluteLayout>@

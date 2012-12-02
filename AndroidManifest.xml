@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.circuit.zimek"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="13" />
+    <uses-feature android:name="android.hardware.usb.host"/>
+    <!--  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />  -->
+     
+    
+    <application 
+        android:name="com.circuit.zimek.CommonState" 
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher">
+
+        <receiver android:enabled="true" android:name=".BootUpReceiver"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" /> 
+              </intent-filter>
+        </receiver>
+        
+    
+        <!-- <activity   
+            android:name=".Splash_Screen_Activity"
+            android:launchMode="singleTask" android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden">
+        </activity> -->
+        
+        <activity android:name=".PhantomActivity"
+                  android:windowSoftInputMode="stateHidden">
+
+            <intent-filter>
+            	<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" /> 
+			</intent-filter>
+			
+			<intent-filter>             
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" /> 
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />   
+        </activity>
+        <activity android:name=".Home_Screen_Activity"
+                  android:theme="@style/ZimekThemeHomeScreen"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".ZimekActivity"
+                  android:theme="@style/ZimekThemeHomeScreen"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".Liquid_Conversion_Activity"
+                  android:theme="@style/ZimekThemeHomeScreen"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden">     
+        </activity>
+        
+        <activity android:name=".New_Application_Activity"
+				  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden" 
+                  android:theme="@style/ZimekThemeHomeScreen">  
+        </activity>
+        <activity android:name=".AutomaticApp_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden" 
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        <activity android:name=".ManualApp_Activity"
+                  android:theme="@style/ZimekThemeHomeScreen"
+                  android:windowSoftInputMode="stateHidden" 
+                  android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RepeatApp_ChangeTime_Activity"
+                  android:theme="@style/ZimekThemeHomeScreen"
+                  android:windowSoftInputMode="stateHidden" 
+                  android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".Enter_Location_Activity"
+                  android:theme="@style/ZimekThemeHomeScreen"
+                  android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".Begin_Countdown_Activity"
+             	  android:launchMode="singleTask"
+             	  android:theme="@style/ZimekThemeHomeScreen"
+                  android:windowSoftInputMode="stateHidden">
+        </activity>
+        
+        <activity android:name=".Application_Progress_Activity"
+                  android:theme="@style/ZimekThemeHomeScreen"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden">
+        </activity>
+        
+        <activity android:name=".Reports_Activity"
+     			  android:theme="@style/ZimekThemeHomeScreen"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden">
+        </activity>
+        
+        <activity android:name=".Repeat_Last_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        <activity android:name=".Repeat_Application_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".View_Reports_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".PassCode_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".PreHeatLiquid_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".PreHeatActivated_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".StopPreHeat_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".MGT_ControlCenter_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".Reports_Menu_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".DownloadReports_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".DownloadingReports_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".Stop_Download_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".Delete_Reports_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".Reports_Deleted_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".Other_Fuctions_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".SystemSettings_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".SystemInformation_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".ApplicationModules_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".Passcode_Edit_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        <activity android:name=".Total_RunTime_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+
+        <activity android:name=".TimeAndDate_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+ 
+        <activity android:name=".TableOfContents_Activity"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@style/ZimekThemeHomeScreen">
+        </activity>
+        
+        
+        <service android:enabled="true" android:name=".ZComm_Service" >
+        </service>   
+        
+    </application>
+    
+
+</manifest>

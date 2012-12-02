@@ -1,0 +1,184 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.43;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="569dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnReturn"
+        android:src="@@drawable/return_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="12dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnWarning"
+        android:src="@@drawable/warning_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewMGTicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="288dp"
+        android:layout_y="60dp"
+        android:src="@@drawable/mgt_icon" />
+
+    <ImageButton
+        android:id="@@+id/imBtnSaveMGT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="344dp"
+        android:layout_y="572dp"
+        android:background="@@null"
+        android:src="@@drawable/save_mgt_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnOPS_Activate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="761dp"
+        android:layout_y="60dp"
+        android:background="@@null"
+        android:src="@@drawable/ops_press_to_activate_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewEnterPassCodeMGT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="199dp"
+        android:layout_y="279dp"
+        android:src="@@drawable/enter_passcode_edit_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewEnterNewPassCodeMGT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="414dp"
+        android:src="@@drawable/enter_new_passcode_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewEnterPassCodeOPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="677dp"
+        android:layout_y="279dp"
+        android:src="@@drawable/enter_passcode_edit_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewEnterNewPassCodeOPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="677dp"
+        android:layout_y="414dp"
+        android:src="@@drawable/enter_new_passcode_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnSaveOPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="824dp"
+        android:layout_y="574dp"
+        android:background="@@null"
+        android:src="@@drawable/save_ops_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewPasscodeHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="471dp"
+        android:layout_y="11dp"
+        android:src="@@drawable/passcodes_head_eng" />
+
+     <EditText
+         android:id="@@+id/EdTNewPassCodeMGT"
+         android:layout_width="393dp"
+         android:layout_height="wrap_content"
+         android:layout_x="215dp"
+         android:layout_y="426dp"
+         android:ems="10"
+         android:gravity="center"
+         android:inputType="numberPassword"
+         android:singleLine="true"
+         android:textColor="@@color/white"
+         android:background="@@null"
+         android:textSize="40sp" />
+
+     <EditText
+         android:id="@@+id/EdTPassCodeMGT"
+         android:layout_width="393dp"
+         android:layout_height="wrap_content"
+         android:layout_x="214dp"
+         android:layout_y="291dp"
+         android:ems="10"
+         android:gravity="center"
+         android:inputType="numberPassword"
+         android:singleLine="true"
+         android:textColor="@@color/white"
+         android:background="@@null"
+         android:textSize="40sp" >
+
+         <requestFocus />
+     </EditText>
+
+     <EditText
+         android:id="@@+id/EdTNewPassCodeOPS"
+         android:layout_width="393dp"
+         android:layout_height="wrap_content"
+         android:layout_x="692dp"
+         android:layout_y="426dp"
+         android:ems="10"
+         android:gravity="center"
+         android:inputType="numberPassword"
+         android:singleLine="true"
+         android:textColor="@@color/white"
+         android:background="@@null"
+         android:textSize="40sp" />
+
+     <EditText
+         android:id="@@+id/EdTPassCodeOPS"
+         android:layout_width="393dp"
+         android:layout_height="wrap_content"
+         android:layout_x="692dp"
+         android:layout_y="292dp"
+         android:ems="10"
+         android:gravity="center"
+         android:inputType="numberPassword"
+         android:singleLine="true"
+         android:textColor="@@color/white"
+         android:background="@@null"
+         android:textSize="40sp" />
+
+</AbsoluteLayout>@

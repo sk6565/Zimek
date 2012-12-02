@@ -1,0 +1,197 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.47;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="569dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnReturn"
+        android:src="@@drawable/return_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewVipSerial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="102dp"
+        android:src="@@drawable/vip_serial_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewZvacSerial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="166dp"
+        android:src="@@drawable/zvac_serial_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewOplcSerial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="232dp"
+        android:src="@@drawable/oplc_serial_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="295dp"
+        android:src="@@drawable/customer_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewDeliveryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="362dp"
+        android:src="@@drawable/date_of_delivery_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewWarranty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="427dp"
+        android:src="@@drawable/warranty_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewOther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="490dp"
+        android:src="@@drawable/other_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="14dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnWarning"
+        android:src="@@drawable/warning_eng" />
+
+    <ImageButton
+        android:id="@@+id/imViewSystemInfoHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="312dp"
+        android:layout_y="23dp"
+        android:background="@@null"
+        android:src="@@drawable/system_information_head_eng" />
+
+    <EditText
+        android:id="@@+id/txtEditZvacSerial"
+        android:layout_width="804dp"
+        android:layout_height="wrap_content"
+        android:layout_x="406dp"
+        android:layout_y="177dp"
+        android:background="@@null"
+        android:ems="20"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@@+id/txtEditOplcSerial"
+        android:layout_width="804dp"
+        android:layout_height="wrap_content"
+        android:layout_x="406dp"
+        android:layout_y="243dp"
+        android:background="@@null"
+        android:ems="20"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@@+id/txtEditCustomer"
+        android:layout_width="804dp"
+        android:layout_height="wrap_content"
+        android:layout_x="406dp"
+        android:layout_y="307dp"
+        android:background="@@null"
+        android:ems="20"
+        android:textSize="35sp" >
+
+    </EditText>
+
+    <EditText
+        android:id="@@+id/txtEditDeliveryDate"
+        android:layout_width="804dp"
+        android:layout_height="wrap_content"
+        android:layout_x="406dp"
+        android:layout_y="373dp"
+        android:background="@@null"
+        android:ems="20"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@@+id/txtEditWarranty"
+        android:layout_width="804dp"
+        android:layout_height="wrap_content"
+        android:layout_x="406dp"
+        android:layout_y="438dp"
+        android:background="@@null"
+        android:ems="20"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@@+id/txtEditOther"
+        android:layout_width="804dp"
+        android:layout_height="wrap_content"
+        android:layout_x="406dp"
+        android:layout_y="502dp"
+        android:background="@@null"
+        android:ems="20"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@@+id/txtEditVipSerial"
+        android:layout_width="804dp"
+        android:layout_height="wrap_content"
+        android:layout_x="406dp"
+        android:layout_y="115dp"
+        android:background="@@null"
+        android:ems="20"
+        android:textSize="35sp" />
+    
+      <ImageButton
+        android:id="@@+id/imBtnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1135dp"
+        android:layout_y="570dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnNext"
+        android:src="@@drawable/save_eng" />
+
+</AbsoluteLayout>@

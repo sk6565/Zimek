@@ -1,0 +1,92 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.44;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+     <ImageButton
+       android:id="@@+id/imBtnReturn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="28dp"
+       android:layout_y="569dp"
+       android:background="@@null"
+       android:src="@@drawable/return_eng"
+       android:contentDescription="@@string/imBtnReturn" />
+     
+     <ImageButton
+       android:id="@@+id/imBtnActivate"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="1135dp"
+       android:layout_y="570dp"
+       android:background="@@null"
+       android:src="@@drawable/activate_eng"
+       android:contentDescription="@@string/imBtnActivate"  />
+     
+     <ImageButton
+       android:id="@@+id/imBtnWarning"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="15dp"
+       android:layout_y="34dp"
+       android:background="@@null"
+       android:src="@@drawable/warning_eng" 
+       android:contentDescription="@@string/imBtnWarning"/>
+
+     <ImageView
+         android:id="@@+id/imViewPreHeatLiquidHead"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="382dp"
+         android:layout_y="49dp"
+         android:src="@@drawable/preheat_liquid_head_eng" />
+
+     <ImageView
+         android:id="@@+id/imViewPreHeatIcon"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="537dp"
+         android:layout_y="142dp"
+         android:src="@@drawable/preheat_liquid_icon" />
+
+     <ImageView
+         android:id="@@+id/imViewInsertExhaust"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="183dp"
+         android:layout_y="408dp"
+         android:src="@@drawable/insert_exhaust_cover_eng" />
+    
+    </AbsoluteLayout>
+    
+    
+    
+    
+    
+    
+    
+    @

@@ -1,0 +1,64 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.46;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+     <ImageView
+         android:id="@@+id/imViewEndDownload"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="146dp"
+         android:layout_y="326dp"
+         android:src="@@drawable/stop_download_desc_eng" />
+
+     <ImageButton
+         android:id="@@+id/imBtnYes"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="373dp"
+         android:layout_y="439dp"
+         android:background="@@null"
+         android:src="@@drawable/yes_downloading_eng" />
+
+     <ImageButton
+         android:id="@@+id/imBtnNo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="666dp"
+         android:layout_y="437dp"
+         android:background="@@null"
+         android:src="@@drawable/no_downloading_eng" />
+
+     <ImageView
+         android:id="@@+id/imViewWarning"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="537dp"
+         android:layout_y="82dp"
+         android:src="@@drawable/warning" />
+     
+      </AbsoluteLayout>@

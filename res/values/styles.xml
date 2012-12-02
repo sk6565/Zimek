@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+     <style name="MySpinnerLook" parent="@android:TextAppearance.Widget.TextView.SpinnerItem">
+    <item name="android:textSize">22sp</item>
+  </style>
+    
+   <style name="Widget"> </style>
+<style name="Widget.ProgressBar">
+  <item name="android:indeterminateOnly">true</item>
+  <item name="android:indeterminateBehavior">repeat</item>
+  <item name="android:indeterminateDuration">3500</item>
+  <item name="android:minWidth">48dip</item>
+  <item name="android:maxWidth">48dip</item>
+  <item name="android:minHeight">48dip</item>
+  <item name="android:maxHeight">48dip</item>
+</style>
+ 
+<style name="Widget.ProgressBar.Vertical">
+  <item name="android:indeterminateOnly">false</item>
+  <item name="android:progressDrawable">@drawable/vertical_progressbar</item>
+  <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+  <item name="android:minWidth">1dip</item>
+  <item name="android:maxWidth">12dip</item>
+</style>
+
+	<style name="Theme_Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">60sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="blinkText" parent="normalText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+    
+        <style name="ZimekThemeHomeScreen" parent="android:Theme.Light">
+       <item name="android:windowBackground">@drawable/background_screen</item>
+</style>
+    
+
+</resources>

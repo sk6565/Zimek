@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imViewManual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="165dp"
+        android:layout_y="139dp"
+        android:src="@drawable/application_cycle_time_eng" 
+        android:contentDescription="@string/imViewManual"/>
+    
+                   <ImageButton
+                       android:id="@+id/imBtnWarning"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_x="15dp"
+                       android:layout_y="34dp"
+                       android:background="@null"
+                       android:src="@drawable/warning_eng" 
+                       android:contentDescription="@string/imBtnWarning"/>
+                   
+            <ImageButton
+                android:id="@+id/imBtnReturn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="28dp"
+                android:layout_y="569dp"
+                android:background="@null"
+                android:src="@drawable/return_eng"
+                android:contentDescription="@string/imBtnReturn" />
+
+            <ImageButton
+                android:id="@+id/imBtnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="1135dp"
+                android:layout_y="570dp"
+                android:background="@null"
+                android:src="@drawable/next_eng"
+                android:contentDescription="@string/imBtnNext"  />
+
+            <ImageView
+                android:id="@+id/imViewManualApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="333dp"
+                android:layout_y="47dp"
+                android:src="@drawable/calibrate_application_time_eng"
+                android:contentDescription="@string/imViewManualApp" />
+
+            <ImageButton
+                android:id="@+id/imBtnControlCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="528dp"
+                android:layout_y="570dp"
+                android:background="@null"
+                android:src="@drawable/control_center_eng" 
+                android:contentDescription="@string/imBtnControlCenter"/>
+
+            <EditText
+                android:id="@+id/EdTMistHour"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_x="724dp"
+                android:layout_y="210dp"
+                android:background="@null"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:focusable="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="2"
+                android:singleLine="true"
+                android:text="00"
+                android:textSize="65sp" />
+
+            <EditText
+                android:id="@+id/EdTMistMin"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_x="921dp"
+                android:layout_y="210dp"
+                android:background="@null"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:focusable="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="2"
+                android:password="false"
+                android:singleLine="true"
+                android:text="00"
+                android:textSize="65sp" />
+
+            <EditText
+                android:id="@+id/EdTDwellMin"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_x="922dp"
+                android:layout_y="336dp"
+                android:background="@null"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:focusable="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="2"
+                android:singleLine="true"
+                android:text="00"
+                android:textSize="65sp" />
+
+            <EditText
+                android:id="@+id/EdTZvacMin"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_x="920dp"
+                android:layout_y="459dp"
+                android:background="@null"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:focusable="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="2"
+                android:singleLine="true"
+                android:text="00"
+                android:textSize="65sp" />
+
+            <EditText
+                android:id="@+id/EdTZvacHour"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_x="727dp"
+                android:layout_y="459dp"
+                android:background="@null"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:focusable="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="2"
+                android:singleLine="true"
+                android:text="00"
+                android:textSize="65sp" />
+
+            <EditText
+                android:id="@+id/EdTDwellHour"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_x="725dp"
+                android:layout_y="335dp"
+                android:background="@null"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:focusable="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="2"
+                android:singleLine="true"
+                android:text="00"
+                android:textSize="65sp" />
+
+</AbsoluteLayout>

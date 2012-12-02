@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >  
+        
+  
+  <ImageButton
+       android:id="@+id/imBtnWarning"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="15dp"
+       android:layout_y="34dp"
+       android:background="@null"
+       android:src="@drawable/warning_eng" 
+       android:contentDescription="@string/imBtnWarning"/>
+
+  <ImageButton
+      android:id="@+id/imBtnReportsMenu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="32dp"
+      android:layout_y="168dp"
+      android:background="@null"
+      android:src="@drawable/reports_menu_eng" />
+
+  <ImageButton
+      android:id="@+id/imBtnSystemSettings"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="32dp"
+      android:layout_y="302dp"
+      android:background="@null"
+      android:src="@drawable/system_settings_eng" />
+
+  <ImageButton
+      android:id="@+id/imBtnWifiEmail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="32dp"
+      android:layout_y="442dp"
+      android:background="@null"
+      android:src="@drawable/email_and_wifi_eng" />
+
+  <ImageButton
+      android:id="@+id/imBtnCatalogue"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="737dp"
+      android:layout_y="302dp"
+      android:background="@null"
+      android:src="@drawable/catalogue_eng" />
+
+  <ImageButton
+      android:id="@+id/imBtnDiagnostics"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="735dp"
+      android:layout_y="168dp"
+      android:background="@null"
+      android:src="@drawable/diagnostics_eng" />
+
+  <ImageButton
+      android:id="@+id/imBtnMaintenanceRepair"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="739dp"
+      android:layout_y="442dp"
+      android:background="@null"
+      android:src="@drawable/maintenance_and_repair_eng" />
+
+  <ImageButton
+      android:id="@+id/imBtnReturn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="28dp"
+      android:layout_y="571dp"
+      android:background="@null"
+      android:contentDescription="@string/imBtnReturn"
+      android:src="@drawable/return_eng" />
+
+  <ImageView
+      android:id="@+id/imViewMGTControlCenter"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="362dp"
+      android:layout_y="24dp"
+      android:src="@drawable/control_center_mgt_eng" />
+    
+  </AbsoluteLayout>

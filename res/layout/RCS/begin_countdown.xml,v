@@ -1,0 +1,118 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.40;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@@+id/EdTChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1036dp"
+        android:layout_y="20dp"
+        android:ems="10"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="34dp"
+        android:background="@@null"
+        android:src="@@drawable/warning_eng" 
+        android:contentDescription="@@string/imBtnWarning"/>
+
+    <ImageView
+        android:id="@@+id/imViewAppBegHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="329dp"
+        android:layout_y="41dp"
+        android:src="@@drawable/application_begins_in_eng"
+        android:contentDescription="@@string/imViewAppBegHead" />
+
+    <ImageButton
+        android:id="@@+id/imBtnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="428dp"
+        android:layout_y="484dp"
+        android:background="@@null"
+        android:src="@@drawable/stop_eng"
+        android:contentDescription="@@string/imBtnStop" />
+
+    <ImageButton
+        android:id="@@+id/imBtnPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="686dp"
+        android:layout_y="486dp"
+        android:background="@@null"
+        android:src="@@drawable/pause_eng"
+        android:contentDescription="@@string/imBtnPause" />
+
+    <TextView
+        android:id="@@+id/txtViewPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1148dp"
+        android:layout_y="83dp"
+        android:text="TextView"
+        android:visibility="invisible"  />
+
+    <TextView
+        android:id="@@+id/EdTsec"
+        android:layout_width="323dp"
+        android:layout_height="255dp"
+        android:layout_x="500dp"
+        android:layout_y="81dp"
+        android:gravity="center"
+        android:text="30"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@@color/yellow"
+        android:textSize="210sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@@+id/imViewSec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="532dp"
+        android:layout_y="320dp"
+        android:src="@@drawable/seconds_eng"
+        android:contentDescription="@@string/imViewSec" />
+
+    <ImageView
+        android:id="@@+id/imViewEvac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="313dp"
+        android:layout_y="398dp"
+        android:src="@@drawable/evacuate_area_now_eng"
+        android:contentDescription="@@string/imViewEvac" />
+
+</AbsoluteLayout>@

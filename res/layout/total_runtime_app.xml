@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="569dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnReturn"
+        android:src="@drawable/return_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="14dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnWarning"
+        android:src="@drawable/warning_eng" />
+
+    <ImageView
+        android:id="@+id/imViewSystemActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="77dp"
+        android:layout_y="145dp"
+        android:src="@drawable/system_active_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnResetSystemActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1011dp"
+        android:layout_y="153dp"
+        android:background="@null"
+        android:src="@drawable/reset_system_eng" />
+
+    <ImageView
+        android:id="@+id/imViewTotalRunTimeHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="336dp"
+        android:layout_y="11dp"
+        android:src="@drawable/total_run_time_head_eng" />
+
+    <ImageView
+        android:id="@+id/imViewMicroMistActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="81dp"
+        android:layout_y="410dp"
+        android:src="@drawable/micromist_active_eng" />
+
+    <ImageButton
+        android:id="@+id/imBtnResetMicroMistActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1019dp"
+        android:layout_y="410dp"
+        android:background="@null"
+        android:src="@drawable/reset_micromist_eng" />
+
+    <TextView
+        android:id="@+id/txtViewSystemTotalTimeNone"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_x="494dp"
+        android:layout_y="218dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="00:30"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewSystemTotalTimeAdjustable"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_x="778dp"
+        android:layout_y="218dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="00:01"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewMistTotalTimeNone"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_x="504dp"
+        android:layout_y="481dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="00:30"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewMistTotalTimeAdjustable"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_x="786dp"
+        android:layout_y="481dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="00:01"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewTimeDateSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1009dp"
+        android:layout_y="355dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="7/29/2012, 1:55PM"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewTimeDateMist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1008dp"
+        android:layout_y="608dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="7/29/2012, 1:55PM"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

@@ -1,0 +1,126 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.43;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@@+id/txtViewSpray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1023dp"
+        android:layout_y="47dp"
+        android:clickable="false"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@@+id/imBtnRepeatApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="410dp"
+        android:layout_y="183dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnRepeatApp"
+        android:src="@@drawable/repeat_application_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnNewApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="410dp"
+        android:layout_y="368dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnNewApp"
+        android:src="@@drawable/new_application_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="5dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnWarning"
+        android:src="@@drawable/warning_eng" />
+
+    <ImageView
+        android:id="@@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="84dp"
+        android:layout_y="155dp"
+        android:contentDescription="@@string/liquidtank"
+        android:src="@@drawable/liquid_tank_1" />
+
+    <ProgressBar
+        android:id="@@+id/vertical_progressbar"
+        style="@@style/Widget.ProgressBar.Vertical"
+        android:layout_width="41dp"
+        android:layout_height="350dp"
+        android:layout_x="174dp"
+        android:layout_y="176dp" />
+
+    <ImageView
+        android:id="@@+id/imViewLiquidTank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="97dp"
+        android:contentDescription="@@string/liquidtankhead"
+        android:src="@@drawable/liquid_tank_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewControlCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="424dp"
+        android:layout_y="44dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnControlCenter"
+        android:src="@@drawable/control_center_text_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnOtherFunctions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1119dp"
+        android:layout_y="17dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnNewApp"
+        android:src="@@drawable/other_options_eng_2" />
+
+    <ImageButton
+        android:id="@@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="570dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnReturn"
+        android:src="@@drawable/return_eng" />
+
+</AbsoluteLayout>@

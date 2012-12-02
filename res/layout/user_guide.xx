@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+         <ImageButton
+             android:id="@+id/imBtnReturn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_x="28dp"
+             android:layout_y="569dp"
+             android:background="@null"
+             android:src="@drawable/return_eng"
+             android:contentDescription="@string/imBtnReturn"   />
+
+         <ImageView
+             android:id="@+id/imViewUserGuide"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_x="344dp"
+             android:layout_y="25dp"
+             android:contentDescription="@string/imViewUserGuide"
+             android:src="@drawable/user_guide_eng" />
+
+         <ImageButton
+             android:id="@+id/imBtnUserGuideOperators"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_x="310dp"
+             android:layout_y="125dp"
+             android:background="@null"
+             android:contentDescription="@string/imBtnUserGuideOperators"
+             android:src="@drawable/user_guide_operators_eng" />
+
+         <ImageButton
+             android:id="@+id/imBtnUserGuideManagers"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_x="310dp"
+             android:layout_y="250dp"
+             android:background="@null"
+             android:contentDescription="@string/imBtnUserGuideManagers"
+             android:src="@drawable/user_guide_managers_eng" />
+
+         <ImageButton
+             android:id="@+id/imBtnUserGuideMaint"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_x="310dp"
+             android:layout_y="375dp"
+             android:background="@null"
+             android:contentDescription="@string/imBtnUserGuideMaint"
+             android:src="@drawable/user_guide_maintenance_and_repair_eng" />
+
+         <ImageButton
+             android:id="@+id/imBtnUserGuideTroubleshooting"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_x="310dp"
+             android:layout_y="500dp"
+             android:background="@null"
+             android:contentDescription="@string/imBtnUserGuideTroubleshooting"
+             android:src="@drawable/user_guide_troubleshooting_eng" />
+
+</AbsoluteLayout>

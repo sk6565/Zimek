@@ -1,0 +1,285 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.39;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@@+id/EdTChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="690dp"
+        android:layout_y="11dp"
+        android:ems="10"
+        android:visibility="invisible" 
+        android:contentDescription="@@string/EdTChange">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@@+id/txtViewJobNo"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_x="671dp"
+        android:layout_y="13dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@@color/black"
+        android:visibility="invisible"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@@+id/imViewAppProgressHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="23dp"
+        android:src="@@drawable/application_in_progress_eng" 
+        android:contentDescription="@@string/imViewAppProgressHead"/>
+
+    <ImageView
+        android:id="@@+id/imViewLocationId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="39dp"
+        android:layout_y="97dp"
+        android:src="@@drawable/location_eng" 
+        android:contentDescription="@@string/imViewLocationId"/>
+
+    <TextView
+        android:id="@@+id/txtViewId"
+        android:layout_width="561dp"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="155dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@@color/black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@@+id/imVieMist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="227dp"
+        android:src="@@drawable/micromist" 
+        android:contentDescription="@@string/imVieMist"/>
+
+    <ImageView
+        android:id="@@+id/imViewDwell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="199dp"
+        android:layout_y="347dp"
+        android:src="@@drawable/dwell" 
+        android:contentDescription="@@string/imViewDwell"/>
+
+    <ImageView
+        android:id="@@+id/imViewZvac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="465dp"
+        android:src="@@drawable/zvac" 
+        android:contentDescription="@@string/imViewZvac"/>
+
+    <ProgressBar
+        android:id="@@+id/pBarMist"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="502dp"
+        android:layout_height="52dp"
+        android:layout_x="349dp"
+        android:layout_y="276dp" 
+        android:progressDrawable = "@@drawable/progressbackground"/>
+
+    <ProgressBar
+        android:id="@@+id/pBarDwell"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="504dp"
+        android:layout_height="52dp"
+        android:layout_x="349dp"
+        android:layout_y="398dp" 
+        android:progressDrawable = "@@drawable/progressbackground"/>
+
+    <ProgressBar
+        android:id="@@+id/pBarZvac"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="505dp"
+        android:layout_height="52dp"
+        android:layout_x="349dp"
+        android:layout_y="514dp" 
+        android:progressDrawable = "@@drawable/progressbackground"/>
+
+    <ProgressBar
+        android:id="@@+id/pBarTotal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="505dp"
+        android:layout_height="52dp"
+        android:layout_x="349dp"
+        android:layout_y="653dp" 
+        android:progressDrawable = "@@drawable/progressbackground"/>
+
+    <ImageView
+        android:id="@@+id/imViewMistText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="348dp"
+        android:layout_y="239dp"
+        android:src="@@drawable/micromist_text" 
+        android:contentDescription="@@string/imViewMistText"/>
+
+    <ImageView
+        android:id="@@+id/imViewZvacText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="349dp"
+        android:layout_y="480dp"
+        android:src="@@drawable/zvac_text" 
+        android:contentDescription="@@string/imViewZvacText"/>
+
+    <ImageView
+        android:id="@@+id/imViewTotalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="348dp"
+        android:layout_y="613dp"
+        android:src="@@drawable/total_time_remaining_eng" 
+        android:contentDescription="@@string/imViewTotalText"/>
+
+    <TextView
+        android:id="@@+id/txtViewTotalCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="862dp"
+        android:layout_y="658dp"
+        android:clickable="false"
+        android:textColor="@@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@@+id/txtViewZvacCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="862dp"
+        android:layout_y="518dp"
+        android:clickable="false"
+        android:textColor="@@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@@+id/txtViewDwellCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="860dp"
+        android:layout_y="404dp"
+        android:clickable="false"
+        android:textColor="@@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@@+id/txtViewMistCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="857dp"
+        android:layout_y="283dp"
+        android:clickable="false"
+        android:textColor="@@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@@+id/imViewMistIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1010dp"
+        android:layout_y="253dp"
+        android:src="@@drawable/micromist" 
+        android:contentDescription="@@string/imViewMistIcon"/>
+
+    <ImageView
+        android:id="@@+id/imViewZvacIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1011dp"
+        android:layout_y="490dp"
+        android:src="@@drawable/zvac" 
+        android:contentDescription="@@string/imViewZvacIcon"/>
+
+    <ImageView
+        android:id="@@+id/imViewDwellIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1010dp"
+        android:layout_y="373dp"
+        android:src="@@drawable/dwell"
+        android:contentDescription="@@string/imViewDwellIcon" />
+
+    <ImageButton
+        android:id="@@+id/imBtnStopApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="659dp"
+        android:layout_y="67dp"
+        android:background="@@null"
+        android:src="@@drawable/stop_app_eng"
+        android:contentDescription="@@string/imBtnStopApp" />
+
+    <ImageButton
+        android:id="@@+id/imBtnPauseApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="942dp"
+        android:layout_y="67dp"
+        android:background="@@null"
+        android:src="@@drawable/pause_app_eng"
+        android:contentDescription="@@string/imBtnPauseApp" />
+
+    <ImageView
+        android:id="@@+id/imViewTotalTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="584dp"
+        android:src="@@drawable/time_remaining" 
+       android:contentDescription="@@string/imViewTotalTime"/>
+
+    <ImageView
+        android:id="@@+id/imViewDwellText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="351dp"
+        android:layout_y="362dp"
+        android:src="@@drawable/dwell_text_eng" 
+        android:contentDescription="@@string/imViewDwellText"/>
+
+</AbsoluteLayout>@

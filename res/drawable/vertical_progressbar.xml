@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+     
+    <item android:id="@android:id/background">
+        <shape>
+        <solid android:color="#00000000"/>
+        <stroke android:width="1dp"  android:color="#00000000"/>
+            <corners android:radius="5dip" />
+            <gradient
+                    android:startColor="#ff5a5d5a"
+                    android:centerColor="#ff5a5d5a"
+                    android:centerY="0.75"
+                    android:endColor="#ff747674"
+                    android:angle="180"
+            />
+        </shape>
+    </item>
+     
+    <item android:id="@android:id/secondaryProgress">
+        <clip android:clipOrientation="vertical" android:gravity="bottom">
+            <shape>
+                 <solid android:color="#00000000"/>
+        	<stroke android:width="1dp"  android:color="#00000000"/>
+                <corners android:radius="5dip" />
+                <gradient
+                        android:startColor="#80ffd300"
+                        android:centerColor="#80ffb600"
+                        android:centerY="0.75"
+                        android:endColor="#a0ffcb00"
+                        android:angle="180"
+                />
+            </shape>
+        </clip>
+    </item>
+     
+    <item android:id="@android:id/progress">
+        <clip android:clipOrientation="vertical" android:gravity="bottom">
+            <shape>
+                
+                <solid android:color="#3300FF"/>
+        	<stroke android:width="1dp"  android:color="#3300FF"/>
+                <corners android:radius="5dip" />
+                <gradient
+                        android:startColor="#3300FF"
+                        android:centerColor="#3300FF"
+                        android:centerY="0.75"
+                        android:endColor="#3300FF"
+                        android:angle="180"
+                />
+            </shape>
+        </clip>
+    </item>
+     
+</layer-list>

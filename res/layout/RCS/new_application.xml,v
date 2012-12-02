@@ -1,0 +1,79 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.42;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@@+id/imViewNewApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="446dp"
+        android:layout_y="44dp"
+        android:src="@@drawable/new_application_heading_eng" 
+        android:contentDescription="@@string/imViewNewApp"/>
+
+    <ImageButton
+        android:id="@@+id/imBtnManualCali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="315dp"
+        android:layout_y="186dp"
+        android:background="@@null"
+        android:src="@@drawable/manual_calibration_eng"
+        android:contentDescription="@@string/imBtnManualCali" />
+
+    <ImageButton
+        android:id="@@+id/imBtnAutoCali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="314dp"
+        android:layout_y="422dp"
+        android:background="@@null"
+        android:src="@@drawable/automatic_calibration_eng"
+        android:contentDescription="@@string/imBtnAutoCali" />
+
+         <ImageButton
+             android:id="@@+id/imBtnWarning"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_x="49dp"
+             android:layout_y="35dp"
+             android:background="@@null"
+             android:src="@@drawable/warning_eng"
+             android:contentDescription="@@string/imBtnWarning"  />
+
+         <ImageButton
+             android:id="@@+id/imBtnReturn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_x="28dp"
+             android:layout_y="569dp"
+             android:background="@@null"
+             android:src="@@drawable/return_eng"
+             android:contentDescription="@@string/imBtnReturn"   />
+
+</AbsoluteLayout>@

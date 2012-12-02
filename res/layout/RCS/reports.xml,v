@@ -1,0 +1,204 @@
+head	1.1;
+access;
+symbols;
+locks
+	sudhir:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.08.06.13.59.46;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@@+id/txtViewJobno"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="296dp"
+        android:gravity="center"
+        android:textColor="@@color/black"
+        android:visibility="invisible"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@@+id/txtViewZserial"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_x="984dp"
+        android:layout_y="295dp"
+        android:gravity="center"
+        android:textColor="@@color/black"
+        android:visibility="invisible"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="34dp"
+        android:background="@@null"
+        android:src="@@drawable/warning_eng" 
+        android:contentDescription="@@string/imBtnWarning"/>
+
+    <ImageView
+        android:id="@@+id/imViewReportHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="534dp"
+        android:layout_y="47dp"
+        android:src="@@drawable/report_eng"
+        android:contentDescription="@@string/imViewReportHead" />
+
+    <ImageView
+        android:id="@@+id/imViewAppResultLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="126dp"
+        android:src="@@drawable/table_result_location_eng" 
+        android:contentDescription="@@string/imViewAppResultLoc" />
+
+    <TextView
+        android:id="@@+id/txtViewId"
+        android:layout_width="474dp"
+        android:layout_height="wrap_content"
+        android:layout_x="736dp"
+        android:layout_y="185dp"
+        android:gravity="center"
+        android:textColor="@@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@@+id/txtViewResult"
+        android:layout_width="665dp"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="184dp"
+        android:gravity="center"
+        android:textColor="@@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@@+id/imViewStartDateTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="238dp"
+        android:src="@@drawable/start_date_total_time_eng"
+        android:contentDescription="@@string/imViewStartDateTotal" />
+
+    <ImageView
+        android:id="@@+id/imViewMistDwellZvac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="39dp"
+        android:layout_y="414dp"
+        android:src="@@drawable/application_report_time_periods_eng"
+        android:contentDescription="@@string/imViewMistDwellZvac"  />
+
+    <TextView
+        android:id="@@+id/txtViewZvac"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_x="972dp"
+        android:layout_y="456dp"
+        android:background="@@null"
+        android:gravity="center"
+        android:textColor="@@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@@+id/txtViewDwell"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_x="631dp"
+        android:layout_y="456dp"
+        android:background="@@null"
+        android:gravity="center"
+        android:textColor="@@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@@+id/txtViewMist"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_x="267dp"
+        android:layout_y="457dp"
+        android:background="@@null"
+        android:gravity="center"
+        android:textColor="@@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@@+id/imBtnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="583dp"
+        android:layout_y="570dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnNext"
+        android:src="@@drawable/next_eng" />
+
+    <TextView
+        android:id="@@+id/txtViewDate"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_x="600dp"
+        android:layout_y="318dp"
+        android:background="@@null"
+        android:gravity="center"
+        android:textColor="@@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@@+id/txtViewTotal"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1073dp"
+        android:layout_y="320dp"
+        android:background="@@null"
+        android:gravity="center"
+        android:textColor="@@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@@+id/txtViewTime"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_x="190dp"
+        android:layout_y="318dp"
+        android:background="@@null"
+        android:gravity="center"
+        android:textColor="@@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>@

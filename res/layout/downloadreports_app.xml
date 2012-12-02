@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >  
+    
+    
+     <ImageButton
+       android:id="@+id/imBtnWarning"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="15dp"
+       android:layout_y="34dp"
+       android:background="@null"
+       android:src="@drawable/warning_eng" 
+       android:contentDescription="@string/imBtnWarning"/>
+      
+      <ImageButton
+          android:id="@+id/imBtnDownload"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="1135dp"
+          android:layout_y="570dp"
+          android:background="@null"
+          android:contentDescription="@string/imBtnDownload"
+          android:src="@drawable/download_eng" />
+
+      <ImageView
+          android:id="@+id/imViewDownloadReportsHead"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="346dp"
+          android:layout_y="41dp"
+          android:src="@drawable/download_reports_head_eng" />
+
+      <ImageView
+          android:id="@+id/imViewDownloadDesc"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="80dp"
+          android:layout_y="398dp"
+          android:src="@drawable/connect_usb_eng" />
+
+      <ImageView
+          android:id="@+id/imViewUSBIcon"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="379dp"
+          android:layout_y="171dp"
+          android:src="@drawable/connect_usb_icon" />
+
+      <ImageButton
+          android:id="@+id/imBtnReturn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="29dp"
+          android:layout_y="570dp"
+          android:background="@null"
+          android:contentDescription="@string/imBtnReturn"
+          android:src="@drawable/return_eng" />
+
+      <ImageButton
+          android:id="@+id/imBtnMGTControlCenter"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="497dp"
+          android:layout_y="569dp"
+          android:background="@null"
+          android:contentDescription="@string/imBtnMGTControlCenter"
+          android:src="@drawable/control_center_mgt_button_eng" />
+     
+</AbsoluteLayout>
+    
+    
+    
+    
+    
+    
+    
+    

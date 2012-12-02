@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="34dp"
+        android:background="@null"
+        android:contentDescription="@string/imBtnWarning"
+        android:src="@drawable/warning_eng" />
+
+    <ImageView
+        android:id="@+id/imViewDownloadReportsHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="391dp"
+        android:layout_y="33dp"
+        android:src="@drawable/download_reports_head_eng" />
+
+    <ImageView
+        android:id="@+id/imViewDownloadingIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="357dp"
+        android:layout_y="122dp"
+        android:src="@drawable/downloading_reports_icon" />
+
+    <ImageView
+        android:id="@+id/imViewDownloadingDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="233dp"
+        android:layout_y="329dp"
+        android:src="@drawable/downloading_reports_eng" />
+
+    <ProgressBar
+        android:id="@+id/pBarDownload"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="619dp"
+        android:layout_height="52dp"
+        android:layout_x="352dp"
+        android:layout_y="433dp"
+        android:progressDrawable="@drawable/progressbackground" />
+
+    <TextView
+        android:id="@+id/txtViewDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="622dp"
+        android:layout_y="495dp"
+        android:clickable="false"
+        android:text="60%"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    
+     <ImageButton
+                android:id="@+id/imBtnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="1135dp"
+                android:layout_y="570dp"
+                android:background="@null"
+                android:src="@drawable/next_eng"
+                android:contentDescription="@string/imBtnNext"  />
+
+     <ImageButton
+         android:id="@+id/imBtnStop"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="592dp"
+         android:layout_y="565dp"
+         android:background="@null"
+         android:contentDescription="@string/imBtnStop"
+         android:src="@drawable/stop_download_eng" />
+     
+         <TextView
+        android:id="@+id/txtViewPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1148dp"
+        android:layout_y="83dp"
+        android:text="TextView"
+        android:visibility="invisible"  />
+
+</AbsoluteLayout>

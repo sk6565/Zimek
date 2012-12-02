@@ -1,0 +1,179 @@
+head	1.2;
+access;
+symbols;
+locks
+	sudhir:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2012.08.06.14.11.46;	author sudhir;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.08.06.13.59.47;	author sudhir;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Moved the return button down and adjust all other a little up.
+@
+text
+@<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@@+id/imBtnWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="30dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnWarning"
+        android:src="@@drawable/warning_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="592dp"
+        android:background="@@null"
+        android:contentDescription="@@string/imBtnReturn"
+        android:src="@@drawable/return_eng" />
+
+    <ImageView
+        android:id="@@+id/imViewSystemSettingsHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="322dp"
+        android:layout_y="30dp"
+        android:src="@@drawable/system_settings_head_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnSystemInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="120dp"
+        android:background="@@null"
+        android:src="@@drawable/system_info_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnPassCodes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="240dp"
+        android:background="@@null"
+        android:src="@@drawable/passcodes_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnTotalRunTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="360dp"
+        android:background="@@null"
+        android:src="@@drawable/total_run_time_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnBeeper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="480dp"
+        android:background="@@null"
+        android:src="@@drawable/beeper_disabled_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnApplicationModules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="739dp"
+        android:layout_y="120dp"
+        android:background="@@null"
+        android:src="@@drawable/application_modules_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnTimeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="739dp"
+        android:layout_y="240dp"
+        android:background="@@null"
+        android:src="@@drawable/date_and_time_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnLightingApplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="741dp"
+        android:layout_y="360dp"
+        android:background="@@null"
+        android:src="@@drawable/lighting_application_eng" />
+
+    <ImageButton
+        android:id="@@+id/imBtnMetrics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="737dp"
+        android:layout_y="480dp"
+        android:background="@@null"
+        android:src="@@drawable/metrics_liters_and_meters_eng" />
+
+</AbsoluteLayout>
+@
+
+
+1.1
+log
+@Initial check in.
+@
+text
+@d12 1
+a12 1
+        android:layout_y="34dp"
+d22 1
+a22 1
+        android:layout_y="571dp"
+d32 1
+a32 1
+        android:layout_y="37dp"
+d40 1
+a40 1
+        android:layout_y="130dp"
+d49 1
+a49 1
+        android:layout_y="255dp"
+d58 1
+a58 1
+        android:layout_y="383dp"
+d67 1
+a67 1
+        android:layout_y="504dp"
+d76 1
+a76 1
+        android:layout_y="130dp"
+d85 1
+a85 1
+        android:layout_y="255dp"
+d94 1
+a94 1
+        android:layout_y="383dp"
+d103 1
+a103 1
+        android:layout_y="504dp"
+d107 1
+a107 1
+</AbsoluteLayout>@

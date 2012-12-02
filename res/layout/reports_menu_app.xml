@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >  
+        
+  
+  <ImageButton
+       android:id="@+id/imBtnWarning"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="15dp"
+       android:layout_y="34dp"
+       android:background="@null"
+       android:src="@drawable/warning_eng" 
+       android:contentDescription="@string/imBtnWarning"/>
+  
+  <ImageButton
+      android:id="@+id/imBtnReturn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="28dp"
+      android:layout_y="571dp"
+      android:background="@null"
+      android:contentDescription="@string/imBtnReturn"
+      android:src="@drawable/return_eng" />
+
+  <ImageButton
+      android:id="@+id/imBtnViewReports"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="386dp"
+      android:layout_y="165dp"
+      android:background="@null"
+      android:src="@drawable/view_reports_eng" />
+
+  <ImageButton
+      android:id="@+id/imBtnDeleteReports"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="386dp"
+      android:layout_y="435dp"
+      android:background="@null"
+      android:src="@drawable/delete_reports_eng" />
+
+  <ImageButton
+      android:id="@+id/imBtnDownloadReports"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="386dp"
+      android:layout_y="297dp"
+      android:background="@null"
+      android:src="@drawable/download_reports_eng" />
+
+  <ImageView
+      android:id="@+id/imViewReportsMenu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="409dp"
+      android:layout_y="42dp"
+      android:src="@drawable/reports_menu_head_eng" />
+  
+  </AbsoluteLayout>
