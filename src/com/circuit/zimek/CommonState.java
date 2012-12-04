@@ -44,6 +44,12 @@ public class CommonState extends Application {
 	public long totalZvac = 0;  // time in milliseconds
 	public long appTimer = 0;    // time in milliseconds
 	
+	public int lastSystemReset = 0;
+	public String lastSystemResetDate;
+	public int lastMistReset = 0;
+	public String lastMistResetDate;
+	
+	
 	
 	public FTDriver mSerial = null;
 	public int startup_done = 0;

@@ -45,14 +45,13 @@
         android:src="@drawable/preheat_liquid_eng" />
 
     <ImageButton
-        android:id="@+id/imBtnViewReports"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+         android:id="@+id/imBtnMgt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
         android:layout_x="387dp"
         android:layout_y="233dp"
         android:background="@null"
-        android:contentDescription="@string/imBtnViewReports"
-        android:src="@drawable/view_reports_eng" />
+        android:src="@drawable/mgt_control_center_eng" />
 
     <ImageButton
         android:id="@+id/imBtnMistRemaining"
@@ -73,13 +72,13 @@
         android:text="TextView" android:visibility="invisible"/>
 
      <ImageButton
-         android:id="@+id/imBtnMgt"
+         android:id="@+id/imBtnMenuMaintenanceLog"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_x="387dp"
          android:layout_y="352dp"
          android:background="@null"
-         android:src="@drawable/mgt_control_center_eng" />
+         android:src="@drawable/menu_maintenance_log_eng" />
 
      <ImageView
          android:id="@+id/imViewOtherFunctions"

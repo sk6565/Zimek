@@ -33,6 +33,7 @@
         android:background="@null"
         android:contentDescription="@string/imBtnNewApp"
         android:src="@drawable/new_application_eng" />
+    
 
     <ImageButton
         android:id="@+id/imBtnWarning"

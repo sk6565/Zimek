@@ -20,7 +20,7 @@ private ImageButton imBtnWarning;
 private ImageButton imBtnReportsMenu;
 private ImageButton imBtnSystemSettings;
 private ImageButton imBtnWifiEmail;
-private ImageButton imBtnDiagnostics;
+private ImageButton imBtnMarketSpecificApp;
 private ImageButton imBtnCatalogue;
 private ImageButton imBtnMaintenanceRepair;
 
@@ -45,7 +45,7 @@ public void onCreate(Bundle savedInstanceState) {
     
     commonState = (CommonState) getApplication();
     commonState.activity_name = "MGT_ControlCenter_Activity";
-    language = commonState.language;
+    language = getIntent().getStringExtra("language");
     
     if(language.equals("English")){
     	
@@ -61,7 +61,7 @@ public void onCreate(Bundle savedInstanceState) {
         
         imBtnWifiEmail = (ImageButton)findViewById(R.id.imBtnWifiEmail);
         
-        imBtnDiagnostics = (ImageButton)findViewById(R.id.imBtnDiagnostics);
+        imBtnMarketSpecificApp = (ImageButton)findViewById(R.id.imBtnMarketSpecificApp);
         
         imBtnCatalogue = (ImageButton)findViewById(R.id.imBtnCatalogue);
         
@@ -93,14 +93,14 @@ public void onCreate(Bundle savedInstanceState) {
         imBtnWifiEmail = (ImageButton)findViewById(R.id.imBtnWifiEmail);
         imBtnWifiEmail.setImageResource(R.drawable.email_and_wifi_spa);
         
-        imBtnDiagnostics = (ImageButton)findViewById(R.id.imBtnDiagnostics);
-        imBtnDiagnostics.setImageResource(R.drawable.diagnostics_spa);
+        imBtnMarketSpecificApp = (ImageButton)findViewById(R.id.imBtnMarketSpecificApp);
+        imBtnMarketSpecificApp.setImageResource(R.drawable.mgt_market_specific_app_spa);
         
         imBtnCatalogue = (ImageButton)findViewById(R.id.imBtnCatalogue);
         imBtnCatalogue.setImageResource(R.drawable.catalogue_spa);
         
         imBtnMaintenanceRepair = (ImageButton)findViewById(R.id.imBtnMaintenanceRepair);
-        imBtnMaintenanceRepair.setImageResource(R.drawable.maintenance_and_repair_spa);
+        imBtnMaintenanceRepair.setImageResource(R.drawable.mgt_maintenance_and_repair_spa);
         
  	   
 		   
@@ -113,7 +113,7 @@ public void onCreate(Bundle savedInstanceState) {
     imBtnReportsMenu.setOnClickListener(this);
     imBtnSystemSettings.setOnClickListener(this);
     imBtnWifiEmail.setOnClickListener(this);
-    imBtnDiagnostics.setOnClickListener(this);
+    imBtnMarketSpecificApp.setOnClickListener(this);
     imBtnCatalogue.setOnClickListener(this);
     imBtnMaintenanceRepair.setOnClickListener(this);
     
@@ -128,6 +128,7 @@ public void onClick(View v) {
 		
 			Intent resultIntent = new Intent();
 			resultIntent.setClass(this,ZimekActivity.class);
+			resultIntent.putExtra("language", language);
 			setResult(Activity.RESULT_OK, resultIntent);
 			startActivity(resultIntent);
 	}
@@ -136,6 +137,7 @@ public void onClick(View v) {
 		
 		Intent resultIntent = new Intent();
 		resultIntent.setClass(this,Reports_Menu_Activity.class);
+		resultIntent.putExtra("language", language);
 		startActivity(resultIntent);
 	}
 	
@@ -143,6 +145,7 @@ public void onClick(View v) {
 		
 		Intent intent = new Intent();
     	intent.setClass(this,SystemSettings_Activity.class);
+    	intent.putExtra("language", language);
     	startActivity(intent);
 		
 		//Toast.makeText(this, "System Settings will be available soon.", Toast.LENGTH_SHORT).show();
@@ -153,9 +156,16 @@ public void onClick(View v) {
 		Toast.makeText(this, "Email & Wi-Fi Connection will be available soon.", Toast.LENGTH_SHORT).show();
 	}
 	
-	if(v==imBtnDiagnostics){
+	/*********** Uncomment later 
+	if(v==imBtnMarketSpecificApp){
 		
-		Toast.makeText(this, "Diagnostics will be available soon.", Toast.LENGTH_SHORT).show();
+		Intent intent = new Intent();
+    	intent.setClass(this,Market_Specific_Activity.class);
+    	intent.putExtra("language", language);
+    	startActivity(intent);
+		
+		
+		//Toast.makeText(this, "Market Specific Applications will be available soon.", Toast.LENGTH_SHORT).show();
 	}
 	
 	if(v==imBtnCatalogue){
@@ -165,9 +175,12 @@ public void onClick(View v) {
 	
 	if(v==imBtnMaintenanceRepair){
 		
-		Toast.makeText(this, "Maintenance Log will be available soon.", Toast.LENGTH_SHORT).show();
+		Intent intent = new Intent();
+    	intent.setClass(this,Maintenance_And_Repair_Activity.class);
+    	intent.putExtra("language", language);
+    	startActivity(intent);
 	}
-	
+	*****************/
 	
 	
 	
